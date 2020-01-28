@@ -1,0 +1,115 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+/* basic elements */
+html {
+	background: url(IMG_9878.JPG), linear-gradient(#D0C19D, #495D2F);
+	background-position: center;
+	background-size: cover;
+	margin: 0;
+	padding: 75px;
+	border-style: solid;
+	border-width: thick;
+	border-color: black;
+	}
+h1{
+	font: 100%, baskerville;
+	font-size: 52px;
+	font-weight: bold;
+	color: darkslategrey;
+	text-align: center;
+	text-shadow: 3px 2px grey;
+	letter-spacing: 3px;
+	word-spacing: 15px;
+	border-bottom: solid;
+	border-width: thick;
+	border-color: black;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	}
+h2{
+	font: 100% sitka;
+	font-size: 36px;
+	color: dimgrey;
+	text-indent: 1%;
+	text-decoration: underline black;
+	}
+h3 { 
+	font: georgia, sans-serif;
+	font-size: 27px;
+	letter-spacing: 1px; 
+	margin-bottom: 2%;
+	color: #595043;
+	margin-left: 3%;
+	text-decoration: underline black;
+	}
+body { 
+	font: 100% Georgia;
+	font-size: 23px;
+	line-height: 1.5;
+	color: black; 
+	background: linear-gradient(to bottom right, tan, darkseagreen); 
+	margin: 0; 
+	padding-bottom: 5%;
+	padding-right: 10%;
+	padding-left: 5%;
+	}
+p { 
+	margin-top: 0; 
+	text-align: justify;
+	margin-left: 5%;
+	}
+ul {
+    list-style-type: square;
+    margin-left: 10%;
+    padding: 0;
+	}
+footer{
+	font:baskerville;
+	font-size: 36px;
+	color: palegoldenrod;
+	text-align: center;
+	word-spacing: 150px;
+	background-color: darkolivegreen;
+	border: solid;
+	border-width: thick;
+	border-color: black;
+	border-top-left-radius: 5pt;
+	border-bottom-left-radius: 15pt;
+	border-top-right-radius: 15pt;
+	border-bottom-right-radius: 5pt;
+	margin-top: 300px;
+	}
+aside {
+	font-size: 20px;
+	column-count: 3;
+	break-after: column;
+	Column-rule-width: 1px;
+	line-height: 1.8889;
+	padding-top: 150px;
+	padding-left: 150px;
+	}
+a:link { 
+	font-weight: bold;
+	color: #629286;
+	text-decoration: underline;
+	}
+a:visited { 
+	font-weight: bold; 
+	color: #28726E;
+	text-decoration: overline dotted; 
+	}
+a:hover{ 
+	text-decoration: none; 
+	color: #943E0F;
+	} 
+a:active{
+	font-size: 25px;
+	color: #C9BC0F;
+	}
