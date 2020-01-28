@@ -1,0 +1,135 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+@font-face {
+    font-family: South Gardens Personal Use;
+    src: url("fonts/South Gardens Personal Use.ttf");
+    font-weight: normal;
+}
+
+html{
+	background-color: burlywood;
+}
+
+nav {
+  	background-color: #000000; 
+}
+
+.navbar-brand{
+	font-family: South Gardens Personal Use, Yesteryear, sans-serif;
+}
+
+.logo{
+	color: #b1b1b1;
+}
+
+header {
+    padding-top: 50px;
+	padding-bottom: 15px;
+	background: linear-gradient(#b59f55,#891f12);
+	margin-top: 75px;
+	margin-left:150px;
+	margin-right: 150px;
+	border: solid;
+	border-width: thick;
+}
+
+.lead{
+	font-family: georgia;
+	font-weight: bold;
+}
+
+body{
+	font-size: 20px;
+	margin-left: 150px;
+	margin-right: 150px;
+	padding-top: 15px;
+	background: #d3d3d3;
+}
+
+h1{
+	padding: 15px;
+	font-family: South Gardens Personal Use, Yesteryear, san-serif;
+	font-size: 63px;
+	text-shadow: 3px 2px #8a8a8a;
+	letter-spacing: 2px;
+	color: #2d2406;
+	padding-bottom: 25px;
+	text-decoration: underline;
+}
+
+h2{
+	font-family: georgia;
+	padding-bottom: 15px;
+}
+
+h3{
+	font-family: georgia;
+	font-size: 30px;
+	text-align: right;
+	font-weight: bold;
+}
+
+.badge{
+	background-color: #a49a75;
+}
+
+h4{
+	border-top: solid;
+}
+
+p{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.section1{
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-bottom: 15px;
+}
+
+.section2{
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-bottom: 15px;
+}
+
+.section3{
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-bottom: 15px;
+}
+
+.drink{
+	padding-left: 75px;
+	padding-right: 75px;
+}
+
+.cuisine{
+	padding-left: 75px;
+	padding-right: 75px;
+}
+
+.card-img-top{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+	margin-top: 15px;
+}
+
+.card  {
+  margin: 0 auto;
+	float: none;
+	margin-bottom: 10px;
+	margin-top: 75px;
+	border: solid;
+	border-width: thick;
+}
+
+footer{
+	text-align: center;
+}

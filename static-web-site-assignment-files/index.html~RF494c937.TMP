@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Southern Cuisine and Drink Recipes for the the Chef of the House. New recipes and Reviews added Monthly.">
+    <meta name="Zach Trumbo" content="Static Website">
+
+    <title>Sweet, Savory, and Southern</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+ 
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Logo or Site ID Here</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#section1">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#section2">Hungry</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#section3">Thirst Quenchers</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container text-center">
+        <h1>Sweet, Savory, and Southern</h1>
+        <p class="lead">Southern Cuisine and Drink Recipes for the the Chef of the House.<br> New recipes and Reviews added Monthly.</p>
+      </div>
+    </header>
+
+    <section id="section1" class="section1">
+      <h2 class="about">Why I do What I Does</h2>
+      	<p>Picture this, Spring days have come and gone. No longer do cool breezes blow though the backyard while you are working in the garden. Yes, the time of year has come in the South when a cool rain shower leaves you in a sticky, sweaty sauna for the rest of the day. The heat and humidity stick to your skin like spiderwebs. Just when it seems there is no relief for the miserable heat you come across an intriguing recipe for Lynchburg Lemonade. A drink that you know will bring down the tempurature, but it has a slight twist that you have never seen before. After you gather up ingredients, and prepare your drink, you find a spot under the shade tree, and relax while your drink allows you to find salvation from the "dog days of summer". This website is the source of your relief for those gruesome summer days, as well as every other day of the year.</p>
+		<p>I have composed this website to bring to you the best recipes for Southern cuisine and drinks because I know how important food and alcohol are to the Southern way of life. Every month, I provide you with two new recipes; one classic cuisine recipe, and a monthly recipe for a seasonal mixed drink. Each recipe has been handed down through generations. Indeed, only time has been able to perfect the combinations of ingredients and flavors, and I have brought them right to you for your personal enjoyment.</p>
+		<p>Thanks for joining in. Please enjoy this month's enstallment, and remember to come back next month for more timeless Southern classics. </p>
+    </section>
+
+    <section id="section2" class="cuisine">
+      <h2 class="cuisinetitle">Some Sort of Recipe for Stuffed Porckchops</h2>
+      <p>Paragraph about Stuffed Porckchops</p>
+      <p>Recipe for Stuffed Porkchops</p>
+    </section>
+
+    <section id="section3" class="drink">
+  	  <h2 class="drinktitle">Mint Julep</h2>
+  	  	<p>One of the most well known alcohols of the South is, obviously, bourbon. The month of April has been deemed, "Mint Julep Month," to commemorate the most celebrated liquor of the South, and Kentucky's claim to fame.</p>
+		<p>The history of the Mint Julep can be traced back to a time long ago. It first gained real exposure int eh 1800's. In areas surrounding Kentucky, Mint Juleps were consumed in the morning. they not only served as a light and refreshing beverage to begin the day, but the mint leaves were also chewed on to improve bad breath. In 1850, Senator Henry Clay introduced the drink the Washington, D.C., and it immediately gained popularity in the White House. In the year, 1983, The Mint Julep became the official drink of the Kentucky Derby.</p>
+		<p>Today's recipe, the " Rough Rider's Mint Julep," comes from Town&amp;Country's,<a href="https://www.townandcountrymag.com/leisure/drinks/news/a6026/history-of-the-mint-julep/"> Mark Will-Weber</a>. This recipe offers a classic Mint Julep recipe with a personal touch from the greatest Rough Rider of all, Teddy Roosevelt.</p>
+		<ul class="recipe">
+			<li>10 to 12 fresh mint leaves "muddled" (until it resembles paste)<br>with a splash of water and a sugar cube</li>
+			<li>2 to 3 oz rye whiskey.</li>
+			<li>.25 oz brandy.</li>
+			<li>1-2 sprigs fresh mint as a garnish.</li>
+			<li>First fill a bar glass with the muddled mint, then fill the glass<br>generously with finely crushed ice.</li> 
+			<li>Top off with the rye, brandy, and mint garnish.</li>
+		</ul>
+ 	
+    </section>
+
+    <!-- Footer -->
+    <footer class="gold-bg">
+        <p>Footer content goes here.</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+  </body>
+
+</html>
