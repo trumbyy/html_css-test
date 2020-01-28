@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Explore Harrisonburg</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+    <style> 
+        main {
+            grid-column: 1/5;
+            padding-top: calc(5px + 10vw);
+            padding-bottom: calc(1px + 5vw);
+            padding-left: 10px;
+            padding-right: 10px;
+            text-align: center;
+            border-top: inset;
+            border-top-width: 10px;
+            border-top-color: #000;
+            border-bottom: outset;
+            border-bottom-width: 10px;
+            border-bottom-color: #000;
+            margin-bottom: 25px;
+            background: #ebf4fa;
+        }
+        main img {
+            grid-column: 1/5;
+            width: 100%;
+            height: auto;
+            padding: 5px;
+            margin-top: (10px + 5vw);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+@media only screen and (min-width: 620px) {
+        /*for tablets*/
+        main img {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 100%;
+            max-width: 300px;
+        }
+}
+@media only screen and (min-width: 900px) {
+        /*for laptops and desktops*/
+        main {
+            margin-top: calc(25px + 2vw);
+        }
+        main img {
+            width: calc(150px + 10vw);
+            margin: calc(3px + 1vw);
+        }
+        main img:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        main a:link {
+            color: #ebf4fa;
+        }
+        main a:visited {
+            color: #ebf4fa;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="container">
+           <nav>
+                <a href="index.html" class="seal">
+                    <img src="images/seal.jpg" alt=" city seal"></a>
+                <a href="downtown.html">
+                    <h3><b>DOWNTOWN</b></h3></a>
+                <a href="jmu.html">
+                    <h3><b>JMU</b></h3></a>
+                <a href="explore.html">
+                    <h3><b>EXPLORE</b></h3></a>
+                <a href="discover.html">
+                    <h3><b>DISCOVER</b></h3></a>
+            </nav>
+            <main>
+                <a target="_blank" href="images/art.png">
+                    <img src="images/art.png" alt="art">
+                </a>
+                <a target="_blank" href="images/cleveland.png">
+                    <img src="images/cleveland.png" alt="cleveland_hall">
+                </a>
+                <a target="_blank" href="images/sign.png">
+                    <img src="images/sign.png" alt="sign">
+                </a>
+                <a target="_blank" href="images/tap.png">
+                    <img src="images/tap.png"
+                         alt="tap">
+                </a>
+                <a target="_blank" href="images/duke.png">
+                    <img src="images/duke.png">
+                </a>
+                <a target="_blank" href="images/festivals.png">
+                    <img src="images/festivals.png">
+                </a>
+                <a target="_blank" href="images/hotel.png">
+                        <img src="images/hotel.png">
+                </a>                    
+                <a target="_blank" href="images/rose.png">
+                    <img src="images/rose.png">
+                </a>
+                <a target="_blank" href="images/main.png">
+                   <img src="images/main.png">
+                </a>
+                <a target="_blank" href="images/market.png">
+                    <img src="images/market.png">
+                </a>                    
+                <a target="_blank" href="images/field.png">
+                    <img src="images/field.png">
+                </a>                    
+                <a target="_blank" href="images/jmu.png">
+                    <img src="images/jmu.png">
+                </a>                    
+                <a target="_blank" href="images/courtyard-copy.png">
+                    <img src="images/courtyard-copy.png">
+                </a>
+                <a target="_blank" href="images/downtown-copy.png">
+                    <img src="images/downtown-copy.png">
+                </a>               
+            </main>
+            <footer>
+                <div class="links">
+                    <p>
+                        For more information,
+                    </p>
+                    <a href="https://www.harrisonburgva.gov">
+                        <img class="seal" src="images/seal.png">
+                    </a>
+                    <a href="https://downtownharrisonburg.org/">
+                        <img class="hdr" src="images/hdr.png">
+                    </a>
+                    <a href="https://www.jmu.edu/">
+                        <img class="jmul" src="images/jmu-logo.png">
+                    </a>
+                </div>
+                <input type="text" placeholder="Search..">
+            </footer>
+        </div>
+    </body>
+</html>

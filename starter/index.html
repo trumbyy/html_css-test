@@ -1,0 +1,197 @@
+ <!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Visit Harrisonburg</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+    <style> 
+        header {
+            grid-column: 1/5;
+            padding-top: 50px;
+        }    
+        section {
+            grid-column: 1/5;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        h2 {
+            font-family: rockwell;
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-style: solid;
+            font-size: calc(7px + 4vw); 
+        }
+        main {
+            grid-column: 1/5;
+            padding-top: calc(5px + 10vw);
+            padding-bottom: calc(1px + 5vw);
+            padding-left: 10px;
+            padding-right: 10px;
+            text-align: center;
+            border-top: inset;
+            border-top-width: 10px;
+            border-top-color: #000;
+            border-bottom: outset;
+            border-bottom-width: 10px;
+            border-bottom-color: #000;
+            margin-bottom: 25px;
+            background: #ebf4fa;
+        } 
+        main img {
+            grid-column: 1/5;
+            width: 100%;
+            padding: 5px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .downtown {
+            margin: (1px + 5vw);
+        }
+        .downtownp {
+            background: #ccc;
+            border: solid;
+            margin: calc(1px + 3vw);
+            padding: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .jmu {
+            margin: (1px + 5vw);
+        }
+        .jmup {
+            background: #ccc;
+            border: solid;
+            margin: calc(1px + 3vw);
+            padding: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+@media only screen and (min-width:620px) {
+        /*for tablets*/
+        .intro {
+            max-width: 550px;
+        }
+        main {
+            text-align: center;
+        }
+        main img {
+            max-width: 550px;
+        }
+        .downtownp  {
+            display: inline-block;
+            max-width: 450px;
+        }
+        .jmup {
+            display: inline-block;
+            max-width: 450px;
+        }
+}
+@media only screen and (min-width: 900px) {
+        /*for laptops and desktops*/
+        header {
+            padding-top: 100px;
+        }
+        main {
+            padding-top: calc(1px + 3vw);
+        }
+        main img {
+            width: 100%;
+            height: auto%;
+            float: left;
+            padding: 5px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .downtown {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: calc(1px + 5vw);
+            margin-left: calc(1px + 3vw);
+            margin-bottom: calc(3px + 5vw);
+        }
+        .downtownp {
+            background: #ccc;
+            border: solid;
+            margin: calc(1px + 3vw);
+            padding: 20px;
+            width: 1000px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .jmu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: calc(1px + 5vw);
+            margin-left: calc(1px + 3vw);
+            ;
+        }
+        .jmup {
+            background: #ccc;
+            border: solid;
+            margin: calc(1px + 3vw);
+            padding: 20px;
+            width: 1000px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        footer img:hover; {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+}
+    </style>
+    </head>
+    <body>
+        <div class="container">
+           <nav>
+                <a href="index.html" class="seal">
+                    <img src="images/seal.jpg" alt=" city seal"></a>
+                <a href="downtown.html">
+                    <h3><b>DOWNTOWN</b></h3></a>
+                <a href="jmu.html">
+                    <h3><b>JMU</b></h3></a>
+                <a href="explore.html">
+                    <h3><b>EXPLORE</b></h3></a>
+                <a href="discover.html">
+                    <h3><b>DISCOVER</b></h3></a>
+            </nav>
+            <header>
+                <img src="images/mainb.png" alt="duke hall" id="topimage"> 
+            </header>
+            <section>
+                <h2 class="title"><b>WELCOME TO ROCKTOWN</b></h2>
+                <p class="intro">The City of Harrisonburg was founded in 1779 when Thomas Harrison donated part of his property to the public. Since then, the once small town has become a small metropolitan. Part of this city's success can be attributed to the beauty of the surrounding mountain areas. Harrisonburg's main attraction, however, is James Madison University. For about ten months of the year, JMU is host to roughly 25,000 college students from around the world.</p>
+            </section>
+            <main>
+                <div class="downtown">
+                    <div class="downtowni">
+                        <img src="images/downtown-copy.png">
+                    </div>
+                    <div class="downtownp">
+                        <h3>DISCOVER DOWNTOWN</h3>
+                        <p>Downtown Harrisonburg promotes the ideal mix of business and entertainment while carrying the values and traditons of a small, historic city. Visitors can find a wide array of food from authentic Indian meals to traditional southern cuisine and every type of burger imaginable. One of the city's most noticable characteristics is it's appreciation and acknowledgement of the fine arts. Numerous businesses in the Downtown area are based off of local and world-renouned art and the culture that comes along with being known as one of the fine arts capitals of Virginia.</p>
+                    </div>
+                </div>
+                <div class="jmu">
+                    <div class="jmui">
+                        <img src="images/courtyard-copy.png">
+                    </div>    
+                    <div class="jmup">   
+                        <h3> EXPLORE JMU</h3>
+                        <p>James Madison University was founded in 1908 under the name, State Normal and Industrial School for Women at Harrisonburg. The institution was later changed to Madison College in 1938. JMU did not become a public university until the year 1977, when registration became available to males for the firt time. Today, the University is home to nearly 20,000 undergraduate students, and around 5,000 graduate students.</p>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                <div class="links">
+                    <p>For more information,</p>
+                    <a href="https://www.harrisonburgva.gov">
+                        <img class="seal" src="images/seal.png">
+                    </a>
+                    <a href="https://downtownharrisonburg.org/">
+                        <img class="hdr" src="images/hdr.png">
+                    </a>
+                    <a href="https://www.jmu.edu/">
+                        <img class="jmul" src="images/jmu-logo.png">
+                    </a>
+                </div>
+                <input type="text" placeholder="Search..">
+            </footer>
+        </div>
+    </body>
+</html>

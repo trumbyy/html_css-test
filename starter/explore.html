@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Discover Harrisonburg</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+    <style> 
+        main {
+            grid-column: 1/5;
+            padding-top: calc(5px + 10vw);
+            padding-bottom: calc(1px + 5vw);
+            padding-left: 10px;
+            padding-right: 10px;
+            text-align: center;
+            border-top: inset;
+            border-top-width: 10px;
+            border-top-color: #000;
+            border-bottom: outset;
+            border-bottom-width: 10px;
+            border-bottom-color: #000;
+            margin-bottom: 25px;
+            background: #ebf4fa;
+        } 
+        main img {
+            grid-column: 1/5;
+            width: 100%;
+            height: auto;
+            padding: 5px;
+            margin-top: (10px + 5vw);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        main p {
+            font-size: 4vw;
+            background: #ccc;
+            border: solid;
+            margin: calc(1px + 3vw);
+            padding: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .downtown {
+            margin-bottom: (10px + 5vw);
+        }
+        .hdr2 {
+            background: #002533;
+            padding: 10px;
+        }
+@media only screen and (min-width:620px) {
+        /*for tablets*/
+        .downtown img {
+            width: 100%;
+            max-width: 300px;
+        }
+        .harrisonburg img {
+            width: 100%;
+            max-width: 300px;
+        }
+        main p {
+            font-size: 3vw;
+        }
+}
+@media only screen and (min-width: 900px) {
+        /*for laptops and desktops*/
+        main {
+            margin-top: calc(25px + 2vw);
+        }
+        main p{
+            font-size: 2vw;
+        }
+        main img {
+            width: 100%;
+            height: auto%;
+            float: left;
+            padding: 5px;
+        }
+        main img:hover {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        main a:link {
+            color: #ebf4fa;
+        }
+        main a:visited {
+            color: #ebf4fa;
+        }
+        .downtown {
+            border: solid;
+            border-width: thick;
+            margin: calc(1px + 3vw);
+            padding: 20px;
+        }
+        .downtown1 {
+            display: flex;           
+            justify-content: center;
+            align-items: center; 
+        }
+        .downtown1 a {
+            margin: calc(1px + 1vw);
+        }
+        .downtown2 {
+            display: flex;           
+            justify-content: center;
+            align-items: center;
+        }
+        .downtown2 a {
+            margin: calc(1px + 1vw);
+        }
+        .harrisonburg {
+            display: flex;       
+            justify-content: center;
+            align-items: center; 
+            border: solid;
+            border-width: thick;
+            margin: calc(1px + 3vw);
+            padding: 20px;
+        }
+        .harrisonburg a {
+            margin: calc(1px + 1vw);
+        }
+        p {
+            background: #ccc;
+            border: solid;
+            margin: calc(1px + 1vw);
+            padding: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .hdr2 {
+            background: #002533;
+            padding: 10px;
+        }
+}
+    </style>
+    </head>
+    <body>
+        <div class="container">
+           <nav>
+                <a href="index.html">
+                    <img class="city" src="images/seal.jpg" alt=" city seal"></a>
+                <a href="downtown.html">
+                    <h3><b>DOWNTOWN</b></h3></a>
+                <a href="jmu.html">
+                    <h3><b>JMU</b></h3></a>
+                <a href="explore.html">
+                    <h3><b>EXPLORE</b></h3></a>
+                <a href="discover.html">
+                    <h3><b>DISCOVER</b></h3></a>
+            </nav>
+            <main>
+                <div class="downtown">
+                    <div class="downtown1">
+                        <p><b>For more things to do Downtown, check out these links:</b></p>
+                        <a href="https://downtownharrisonburg.org/">
+                            <img class="hdr2" src="images/hdr.png">
+                        </a>
+                        <a href="https://www.jackbrownsjoint.com/">
+                            <img src="images/jb.jpeg">
+                        </a>
+                        <a href="http://www.harrisonburgfarmersmarket.com/">
+                            <img src="images/farmers.png">
+                        </a>
+                    </div>
+                    <div class="downtown2">
+                        <a href="https://friendlycity.coop/">
+                            <img src="images/friendly.jpg">
+                        </a>
+                        <a href="https://www.iexploremore.com/">
+                            <img src="images/explore.jpg">
+                        </a>
+                        <a href="https://www.larkinarts.com/">
+                            <img src="images/larkin.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="harrisonburg">
+                    <p><b>For more information on Harrisonburg and JMU:</b></p>
+                    <a href="https://www.harrisonburgva.gov">
+                    <img src="images/seal.png">
+                    </a>
+                    <a href="https://www.jmu.edu/">
+                    <img src="images/jmu-logo.png">
+                    </a>
+                    <a href="https://www.hotelmadison.com/">
+                    <img src="images/madison.jpg">
+                    </a>
+                </div>                
+            </main>
+            <footer>
+                <div class="links">
+                For more information,<br>
+                    <a href="https://www.harrisonburgva.gov">
+                        <img class="seal" src="images/seal.png">
+                    </a>
+                    <a href="https://downtownharrisonburg.org/">
+                        <img class="hdr" src="images/hdr.png">
+                    </a>
+                    <a href="https://www.jmu.edu/">
+                        <img class="jmul" src="images/jmu-logo.png">
+                    </a>
+                </div>
+                <input type="text" placeholder="Search..">
+            </footer>
+        </div>
+    </body>
+</html>

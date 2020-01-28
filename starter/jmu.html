@@ -1,0 +1,162 @@
+ <!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Visit Harrisonburg</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+    <style> 
+        section {
+            grid-column: 1/5;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        main {
+            grid-column: 1/5;
+            padding-top: calc(5px + 10vw);
+            padding-bottom: calc(1px + 5vw);
+            padding-left: 10px;
+            padding-right: 10px;
+            text-align: center;
+            border-top: inset;
+            border-top-width: 10px;
+            border-top-color: #000;
+            border-bottom: outset;
+            border-bottom-width: 10px;
+            border-bottom-color: #000;
+            margin-bottom: 25px;
+            background: #ebf4fa;
+        } 
+        main img {
+            width: 100%;
+            height: auto%;
+            padding: 5px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .east {
+            margin: (1px + 5vw);
+        }
+        .eastp {
+            background: #ccc;
+            border: solid;
+            margin: calc(1px + 3vw);
+            padding: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .west {
+            margin: (1px + 5vw);
+        }
+        .westp {
+            background: #ccc;
+            border: solid;
+            margin: calc(1px + 3vw);
+            padding: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+@media only screen and (min-width:620px) {
+        /*for tablets*/
+}
+@media only screen and (min-width: 900px) {
+        /*for laptops and desktops*/
+        main img {
+            width: 100%;
+            height: auto%;
+            float: left;
+            padding: 5px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        .west {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: calc(1px + 5vw);
+            margin-left: calc(1px + 3vw);
+            margin-bottom: calc(3px + 5vw);
+        }
+        .westp {
+            background: #ccc;
+            border: solid;
+            margin: calc(1px + 3vw);
+            padding: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        westi {
+            width: 1000px;
+        }
+        .east {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: calc(1px + 5vw);
+            margin-left: calc(1px + 3vw);
+            ;
+        }
+        .eastp {
+            background: #ccc;
+            border: solid;
+            margin: calc(1px + 3vw);
+            padding: 20px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+        easti {
+            width: 1000px;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="container">
+           <nav>
+                <a href="index.html" class="seal">
+                    <img src="images/seal.jpg" alt=" city seal"></a>
+                <a href="downtown.html">
+                    <h3><b>DOWNTOWN</b></h3></a>
+                <a href="jmu.html">
+                    <h3><b>JMU</b></h3></a>
+                <a href="explore.html">
+                    <h3><b>EXPLORE</b></h3></a>
+                <a href="discover.html">
+                    <h3><b>DISCOVER</b></h3></a>
+            </nav>
+            <header>
+                <img src="images/dukedog.png" alt="duke dog" id="topimage"> 
+            </header>
+            <section>
+                <p class="intro">James Madison University was founded in 1908 under the name, State Normal and Industrial School for Women at Harrisonburg. The institution was later changed to Madison College in 1938. JMU did not become a public university until the year 1977, when registration became available to males for the firt time. Today, the University is home to nearly 20,000 undergraduate students, and around 5,000 graduate students.</p>
+            </section>
+            <main>
+                <div class="east">
+                    <div class="easti">
+                        <img src="images/rose.png">
+                    </div>
+                    <div class="eastp">
+                        <h3>EAST CAMPUS</h3>
+                        <p>East Campus sports many new buildings including the ISAT building, Rose Library, E-hall, and several new dorm buildings. Also, the new Convocation Center, a parking garage, and more dorm buildings are under construction. These new buildings will put JMU on the map as one of the most modern campuses in the nation. Some of the majors housed on this side of the Interstate include many of teh science and math majors.</p>
+                    </div>
+                </div>
+                <div class="west">
+                    <div class="westi">
+                        <img src="images/cleveland.png">
+                    </div>    
+                    <div class="westp">    
+                        <h3>WEST CAMPUS</h3>
+                        <p>West Campus is the more historic side of campus. Many of these old buildings were part of the original campus, and have gone through several renovations. West Campus includes the trademark, Wilson Hall, as well as the Quad, Burress Hall, Duke Hall, Carrier Library, and the New D-hall. Despite its age, this side of campus still provides a fresh, hip vibe that is charactristic of the arts and music major that call West Campus home. </p>
+                    </div>
+                </div>
+            </main>
+             <footer>
+                <div class="links">
+                For more information,<br>
+                    <a href="https://www.harrisonburgva.gov">
+                        <img class="seal" src="images/seal.png">
+                    </a>
+                    <a href="https://downtownharrisonburg.org/">
+                        <img class="hdr" src="images/hdr.png">
+                    </a>
+                    <a href="https://www.jmu.edu/">
+                        <img class="jmul" src="images/jmu-logo.png">
+                    </a>
+                </div>
+                <input type="text" placeholder="Search..">
+            </footer>
+        </div>
+    </body>
+</html>
