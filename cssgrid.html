@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>CSS Grid</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>    
+         html {
+            -webkit-box-sizing:border-box;
+            -moz-box-sizing:border-box;
+            box-sizing:border-box;
+        }
+        *, *:before, *:after {
+            -webkit-box-sizing:inherit;
+            -moz-box-sizing:inherit;
+            box-sizing:inherit;
+        }
+        .container > div {
+            background:#eee;
+            padding:1em;
+        }
+    /***Every odd box color change***/
+        .container > div:nth-child(odd) {
+            background:#ddd;
+    /***rules for entire container***/
+        }
+        .container {
+            display:grid;
+            grid-template-columns:70% 30%;
+            grid-column-gap:1em;
+            grid-row-gap:1em;
+        }
+    </style>
+    </head>
+    <body>
+    <div class="container">  
+        <div>
+            <p>This is the first box. This is the first box. This is the first box. This is the first box.</p>
+        </div>
+        <div>
+            <p>This is the second box. This is the second box. This is the second box. This is the second box.</p>
+        </div>
+        <div>
+            <p>This is the third box. This is the third box. This is the third box. This is the third box.</p>
+        </div>
+        <div>
+            <p>This is the fourth box. This is the fourth box. This is the fourth box. This is the fourth box.</p>
+        </div>
+    </div>  
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+</html>

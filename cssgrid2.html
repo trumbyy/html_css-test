@@ -1,0 +1,73 @@
+ <!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>CSS Grid</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>    
+         html {
+            -webkit-box-sizing:border-box;
+            -moz-box-sizing:border-box;
+            box-sizing:border-box;
+        }
+        *, *:before, *:after {
+            -webkit-box-sizing:inherit;
+            -moz-box-sizing:inherit;
+            box-sizing:inherit;
+        }
+        .container > div {
+            background:#eee;
+            padding:1em;
+        }
+    /***Every odd box color change***/
+        .container > div:nth-child(odd) {
+            background:#ddd;
+    /***rules for entire container***/
+        }
+    /***breaks screen into fraction(fr)***/
+        .container {
+            display:grid;
+            grid-template-columns:1fr 1fr 1fr 1fr;
+    /***explicitly sets size all boxes***/
+            grid-auto-rows: minmax(100px, auto);
+            grid-column-gap:1em;
+            grid-row-gap:1em;
+        }
+    </style>
+    </head>
+    <body>
+    <div class="container">  
+        <div>
+            <p>This is the first box. This is the first box. This is the first box. This is the first box.</p>
+        </div>
+        <div>
+            <p>This is the second box. This is the second box. This is the second box. This is the second box.</p>
+        </div>
+        <div>
+            <p>This is the third box. This is the third box. This is the third box. This is the third box.</p>
+        </div>
+        <div>
+            <p>This is the fourth box. This is the fourth box. This is the fourth box. This is the fourth box.</p>
+        </div>
+           <div>
+            <p>This is the fifth box. This is the fifth box. This is the fifth box. This is the fifth box.</p>
+        </div>
+           <div>
+            <p>This is the sixth box. This is the sixth box. This is the sixth box. This is the sixth box.</p>
+        </div>
+           <div>
+            <p>This is the seventh box. This is the seventh box. This is the seventh box. This is the seventh box.</p>
+        </div>
+           <div>
+            <p>This is the eighth box. This is the eighth box. This is the eighth box. This is the eighth box.</p>
+        </div>
+    </div>  
+    
+    
+    
+    
+    
+    
+    
+    
+    </body>
+</html>

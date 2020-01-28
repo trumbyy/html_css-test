@@ -1,0 +1,73 @@
+ <!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>CSS Grid</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>    
+         html {
+            -webkit-box-sizing:border-box;
+            -moz-box-sizing:border-box;
+            box-sizing:border-box;
+        }
+        *, *:before, *:after {
+            -webkit-box-sizing:inherit;
+            -moz-box-sizing:inherit;
+            box-sizing:inherit;
+        }
+        .container > *  {
+            background:#eee;
+            padding:1em;
+        }
+        .container > div: {
+            
+        }
+    /***rules for entire container***/
+    /***breaks screen into fraction(fr)***/
+        .container {
+            display:grid;
+            grid-template-columns:repeat(4, 1fr);;
+    /***explicitly sets size all boxes***/
+            grid-auto-rows: minmax(100px, auto);
+            grid-gap:1em;
+            grid-template-areas: 
+                "header header header header"
+                "aside aside main main"
+                "nav nav main main"
+                "section section section section"
+                "section section section section"
+                "footer footer footer footer";
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        header {
+            grid-area: header;
+        }
+        main {
+            grid-area: main;
+        }
+        section {
+            grid-area: section;
+        }
+        aside {
+            grid-area: aside;
+        }
+        nav {
+            grid-area: nav;
+        }
+        footer {
+            grid-area: footer;
+        }
+    </style>
+    </head>
+    <body>
+    <div class="container">  
+        <header>Header</header>
+        <main>Main</main>
+        <section>Section</section>
+        <aside>Aside</aside>
+        <nav>Nav</nav>
+        <footer>Footer</footer>
+    </div>   
+    
+    </body>
+</html>
